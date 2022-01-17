@@ -1,1 +1,1 @@
-# amos-candy: A leftwm configured theme
+# amos-cyberpunk: A leftwm configured theme

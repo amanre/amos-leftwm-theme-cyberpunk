@@ -27,6 +27,6 @@ banner "Committing to the local repository."
 git commit -m "$input"
 
 banner "Pushing local files to Github."
-git push -u origin main
+git push -u origin master
 
 banner "Git push completed...all done!"

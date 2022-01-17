@@ -28,7 +28,7 @@ blueberry-tray &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 volumeicon &
 ~/.screenlayout/dualscreen.sh
-conky -c ~/.config/leftwm/system-overview &
+#conky -c ~/.config/leftwm/system-overview &
 #nitrogen --restore &
 #caffeine &
 #vivaldi-stable &
@@ -56,11 +56,11 @@ echo "LoadTheme $SCRIPTPATH/theme.toml" > $XDG_RUNTIME_DIR/leftwm/commands.pipe
 
 # Set background
 if [ -x "$(command -v feh)" ]; then
-  feh --bg-fill "$SCRIPTPATH"/background1.jpg
+  feh --bg-fill "$SCRIPTPATH"/wallpaper/58.jpg
 fi
-#wal -i ~/.config/leftwm/themes/amos-candy/background1.jpg
-#wal -i ~/.config/leftwm/themes/amos-candy/background.jpg
-wal -i ~/.config/leftwm/themes/amos-candy/endeavour-candy.png
+wal -i ~/.config/leftwm/themes/amos-cyberpunk/wallpaper/58.jpg
+#wal -i ~/.config/leftwm/themes/amos-cyberpunk/wallpaper/20.jpg
+#wal -i ~/.config/leftwm/themes/amos-cyberpunk/wallpaper/3.jpg
 #mainbar
 index=0
 monitors=($(polybar -m | sed s/:.*//))
